@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             ZeroHungerAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "hello",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
